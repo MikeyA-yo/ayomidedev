@@ -1,5 +1,27 @@
 import type { NextApiRequest, NextApiResponse } from "next"
+// import 
+// import createTransport from "nodemailer"
+const nodemailer = require("nodemailer");
 
-export default function handler(req: NextApiRequest, res:NextApiResponse){
-        return res.status(200).json({name: "ayo", age:"17"});
+const transporter = nodemailer.createTransport({
+        host: process.env.MAIL_HOST,
+        port: 587,
+        secureConnection: false,
+        auth: {
+          user: process.env.EMAIL_SENDER,
+          pass: process.env.PASS,
+        },
+        tls: {
+          ciphers: "SSLv3",
+        },
+      });
+
+
+export default async function  sendMessage({name, email, message }:{name:string, email:string, message:string}){
+        const mailoptions = {
+                from: process.env.EMAIL_SENDER,
+                to: process.env.EMAIL_RECEIVER,
+                subject:`New Message from ${name}`,
+                text:`Name: ${name}\n Email: ${email}\n Message: ${message}`
+        }
 }

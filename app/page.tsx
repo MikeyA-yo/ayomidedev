@@ -3,8 +3,26 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
+     <div className="container-center bg-black">
+       <h1>hello world</h1>
+     </div>
      <div className="container-center">
        <h1>hello world</h1>
+     </div>
+     <div className="container-center">
+       <h1>hello world</h1>
+     </div>
+     <div className="container-center">
+       <h1>hello world</h1>
+     </div>
+     <div className="container-center" id="contact">
+       <h1>hello world</h1>
+     </div>
+     <div className="container-center" id="skills">
+       <h1>hello world</h1>
+     </div>
+     <div className="container-center" id="education">
+       <h1>hello world from ayo</h1>
      </div>
     </>
   );
