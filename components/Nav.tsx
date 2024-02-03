@@ -7,6 +7,7 @@ import { Ubuntu } from "next/font/google";
 import { NextURL } from "next/dist/server/web/next-url";
 import { useEffect, useState } from "react";
 import   { Link as Reactlink } from 'react-scroll';
+import { AnimatePresence, motion } from "framer-motion";
 import './nav.css';
 // const scroll = require('react-scroll');
 
@@ -29,8 +30,8 @@ const values=[
         link:"portfolio"
     },
     {
-        name:"CLIENTS",
-        link:"clients"
+        name:"PROJECTS",
+        link:"projects"
     },
     {
         name:"CONTACT",
@@ -42,7 +43,7 @@ function NavElements({name, link}:{name:string, link:any}){
 
    
       return (
-        <div className="p-2">
+        <div className="p-2 bg-white">
             <Reactlink 
             to={link}
             smooth = {true}
@@ -56,13 +57,52 @@ function NavElements({name, link}:{name:string, link:any}){
         </div>
       )
 }
+function MenuDisplay({value}:{value:boolean}){
+    let component;
+    if(value){
+       component =  (<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+       <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25" />
+      </svg>)
+    }else{
+        component = ( <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
+     </svg> )
+    }
+    return component;
+}
+const variants = {
+    opening:{y:"-100%", opacity: 0},
+    opened:{y:0, opacity:1},
+    closing:{x:"-100%", opacity:0}
+}
+function OpenedBar({open}:{open:boolean}){
+    return (
+        <>
+          <AnimatePresence>
+            {!open && ( <motion.div className="flex justify-end w-full flex-col"
+              initial="opening"
+              animate="opened"
+              exit="closing"
+              transition={{duration:0.5}}
+              variants={variants}
+             >
+               {values.map((item, index) =>{
+                   return <NavElements key={index} name={item.name} link={item.link} />
+                })}
+
+           </motion.div>)}
+          </AnimatePresence>
+        </>
+    )
+}
 
 export default  function Navbar(){
   // const router = useRouter();
+  const [openBar, setOpenBar] = useState(true)
     return (
         <>
-          <div className={`w-full h-24 p-4 fixed md:flex lg:flex items-center pl-8 hidden justify-between gap-40 bg-white`}>
-             <div>
+          <div className={`w-full h-24 p-4 fixed md:flex lg:flex items-center   hidden justify-between gap-40 bg-white`}>
+             <div className="flex-grow">
                 <Link href={'/'}><p className={`text-xl text-violet-700 ${ubuntu.className}`}>AYOMIDE</p></Link>
              </div>
             <div className="w-full flex gap-2 justify-between">
@@ -70,6 +110,19 @@ export default  function Navbar(){
                 return <NavElements key={index} name={item.name} link={item.link} />
              })}
             </div>
+          </div>
+          <div className="flex flex-col md:hidden lg:hidden gap-3 h-20 p-4 bg-white fixed w-full items-center">
+             <div className="flex gap-5 items-center justify-between w-full">
+               <div className="flex-grow">
+                <Link href={'/'}><p className={`text-xl text-violet-700 ${ubuntu.className}`}>AYOMIDE</p></Link>
+               </div>
+               <div className="" 
+                onClick={()=> {setOpenBar(!openBar)}}
+                >
+               <MenuDisplay value={openBar} />
+              </div>
+             </div>
+            <OpenedBar open={openBar} />
           </div>
         </>
     )

@@ -7,6 +7,11 @@ export async function GET(req: Request, res:Response){
 }
 
 export async function POST(req:Request, res:Response){
-    const data = await req.json();
-    return  Response.json(data);
+    try {
+        const data = await req.json();
+       await sendMessage(data);
+        return  Response.json(data);
+    } catch (e) {
+        console.log(e);
+    }
 }
