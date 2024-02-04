@@ -17,7 +17,7 @@ export default function Lander(){
              animate={{opacity:1, y:0}}
              transition={{duration:0.7}}
              >
-                  <p className={`text-6xl font-bold text-white  ${mont.className} p-3`}>Hi <span className="text-3xl font-bold text-gray-400">,</span>I Am  Ayo </p>
+                  <p className={`text-6xl font-bold text-white  ${mont.className} p-3`}>Hi<span className="text-5xl font-bold text-blue-600">,</span> I Am  Ayo </p>
              </motion.div>
              <motion.div
              initial={{opacity:0, y:30}}
