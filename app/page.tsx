@@ -1,8 +1,10 @@
 import Image from "next/image";
+import Lander from "@/components/Lander";
 
 export default function Home() {
   return (
     <>
+    <Lander />
      <div className="container-center bg-black">
        <h1>hello world</h1>
      </div>

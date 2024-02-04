@@ -30,7 +30,7 @@
     @apply container p-24;
   }
   .active-link{
-    @apply text-violet-700 ;
+    @apply text-sky-700 ;
   }
 }
 
