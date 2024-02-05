@@ -10,9 +10,52 @@ const gupter = Gupter({weight:['500'], subsets:['latin'], style:['normal']});
 const single = Single_Day({weight:["400"], style:['normal']});
 export default function Lander(){
     return (
+        // gap-6 items-center justify-center
         <>
-        <div className="min-h-screen bg-slate-800 flex flex-col gap-6 items-center justify-center">
-             <motion.div
+        <div className="min-h-screen relative  ">
+        <div className="hidden lg:block md:block">
+              <img src="/pc.jpg" alt="pc image" />
+              <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 ">
+                  <div className="flex flex-col gap-6 items-center justify-center ">
+                   <motion.div
+                    initial={{opacity:0, y: "-30"}}
+                     animate={{opacity:1, y:0}}
+                    transition={{duration:0.7}}
+                    >
+                      <p className={`text-6xl font-bold text-white  ${mont.className} p-3`}>Hi<span className="text-5xl font-bold text-blue-600">,</span> I Am  Ayomide Oluwatola <span className="text-sky-500 text-5xl font-bold">.</span> </p>
+                    </motion.div>
+                  <motion.div
+                    initial={{opacity:0, y:30}}
+                    animate={{opacity:1, y:0}}
+                     transition={{duration:0.7}}
+                    >
+                        <p className={`text-3xl font-medium text-gray-500 ${single.className} p-3`}>Web developer from lagos, Nigeria</p>
+                    </motion.div>
+                  </div>
+              </div>
+        </div>
+        <div className="block lg:hidden md:hidden">
+              <img src="/mobile.jpg" alt="pc image" className="h-screen" />
+              <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full ">
+                  <div className="flex flex-col gap-6 items-center justify-center ">
+                   <motion.div
+                    initial={{opacity:0, y: "-30"}}
+                     animate={{opacity:1, y:0}}
+                    transition={{duration:0.7}}
+                    >
+                      <p className={`text-5xl font-bold text-white  ${mont.className} p-3`}>Hi<span className="text-5xl font-bold text-blue-600">,</span> I Am  Ayomide Oluwatola <span className="text-sky-500 text-5xl font-bold">.</span> </p>
+                    </motion.div>
+                  <motion.div
+                    initial={{opacity:0, y:30}}
+                    animate={{opacity:1, y:0}}
+                     transition={{duration:0.7}}
+                    >
+                        <p className={`text-3xl font-medium text-gray-500 ${single.className} p-3`}>Web developer from lagos, Nigeria</p>
+                    </motion.div>
+                  </div>
+              </div>
+        </div>
+             {/* <motion.div
              initial={{opacity:0, y: "-30"}}
              animate={{opacity:1, y:0}}
              transition={{duration:0.7}}
@@ -25,13 +68,13 @@ export default function Lander(){
              transition={{duration:0.7}}
              >
                  <p className={`text-3xl font-medium text-gray-500 ${single.className} p-3`}>Web developer from lagos, Nigeria</p>
-             </motion.div>
-        </div>
+             </motion.div> */}
+        </div>    
         {/* <div className="hidden lg:block md:block">
-            <Image unoptimized src='/program.jpg' alt="program image" width={1920} height={1080}/>
+              <img src="/pc.jpg" alt="pc image" />
         </div>
         <div className=" lg:hidden md:hidden block">
-            <Image unoptimized src='/program(mobile).jpg' alt="program image" width={900} height={700}/>
+           <img src="/mobile.jpg" alt="pc image" className="h-screen"/>
         </div> */}
         </>
     )

@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
     <Lander />
-     <div className="container-center bg-black">
+     <div className="container-center" id="portfolio">
        <h1>hello world</h1>
      </div>
      <div className="container-center">

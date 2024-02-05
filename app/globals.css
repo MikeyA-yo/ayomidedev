@@ -27,14 +27,15 @@
 } */
 @layer components{
   .container-center{
-    @apply container p-24;
+    @apply container pb-24;
   }
-  .active-link{
-    @apply text-sky-700 ;
-  }
+
 }
 
 @layer utilities {
+  .active-link{
+    @apply text-sky-700 ;
+  }
   .text-balance {
     text-wrap: balance;
   }

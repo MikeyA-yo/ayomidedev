@@ -4,6 +4,6 @@
 
 @layer components{
     .active-link{
-        @apply text-sky-700 bg-slate-700 ;
+        @apply text-sky-700 ;
       }
 }
