@@ -1,10 +1,12 @@
 import Image from "next/image";
 import Lander from "@/components/Lander";
+import About from "@/components/About";
 
 export default function Home() {
   return (
     <>
     <Lander />
+    <About />
      <div className="container-center" id="portfolio">
        <h1>hello world</h1>
      </div>
@@ -23,7 +25,7 @@ export default function Home() {
      <div className="container-center" id="skills">
        <h1>hello world</h1>
      </div>
-     <div className="container-center" id="education">
+     <div className="container-center" >
        <h1>hello world from ayo</h1>
      </div>
     </>

@@ -14,8 +14,8 @@ import './nav.css';
 const ubuntu = Ubuntu({weight:['500'], subsets:['greek']});
 const values=[
     {
-        name:"EDUCATION",
-        link:"education"
+        name:"ABOUT",
+        link:"about"
     },
     {
         name:"SKILLS",
