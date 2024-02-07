@@ -13,8 +13,8 @@ useMotionValueEvent(scrollY, "change", (latest) => {
     return (
        <>
         <Link
-        to="lander"
-        smooth = {true}
+            to="lander"
+            smooth = {true}
             duration={800}
             delay={200}
           className={`fixed bottom-4 right-4  bg-blue-500 hover:bg-transparent hover:text-blue-500 hover:border-blue-500 hover:border-2 text-white font-bold py-2 px-4 rounded-full ${scrollPosition > 400 ?'opacity-100' : 'opacity-0'} shadow-lg`}
