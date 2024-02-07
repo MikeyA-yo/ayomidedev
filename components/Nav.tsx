@@ -45,13 +45,13 @@ function NavElements({name, link}:{name:string, link:any}){
       return (
         <div className="p-2 bg-white">
             <Reactlink
-            className={`${ubuntu.className} text-gray-400 hover:text-sky-700 cursor-pointer `} 
-            to={link}
-            smooth = {true}
-            duration={800}
-            delay={200}
-            activeClass="active-link"
-            spy={true}
+               className={`${ubuntu.className} text-gray-400 hover:text-sky-700 cursor-pointer `} 
+               to={link}
+               smooth = {true}
+               duration={800}
+               delay={200}
+               activeClass="active-link"
+               spy={true}
              >
                 {name}
                 {/* <p className={`${ubuntu.className} text-gray-400 hover:text-sky-700 cursor-pointer `}>{name}</p> */}
