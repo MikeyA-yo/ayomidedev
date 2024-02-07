@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Lander from "@/components/Lander";
 import About from "@/components/About";
+import Modal from "@/components/modal";
 
 export default function Home() {
   return (

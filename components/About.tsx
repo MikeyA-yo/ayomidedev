@@ -16,14 +16,16 @@ export default function About(){
           transition={{delay:0.4, duration:0.7}}
           className="flex justify-center p-14"
           >
-            <h2 className={`text-2xl ${mont.className}`}>ABOUT ME</h2>
+            <h2 className={`text-2xl ${mont.className} animate-bounce `}>ABOUT ME</h2>
           </motion.div>
           <hr />
-          <div className="flex gap-10 justify-between">
-             <div className="">
-                
+          <div className="flex gap-10 justify-between p-14">
+             <div className="pl-7">
+                <p>I'm a professional web developer from lagos, who loves to build out my ideas</p>
              </div>
-             
+             <div className="pr-7">
+              <Image src={`/vercel.svg`} alt="image of me" width={200} height={345} />
+             </div>
           </div>
         </div>
         </>

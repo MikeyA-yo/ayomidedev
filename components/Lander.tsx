@@ -12,9 +12,9 @@ export default function Lander(){
     return (
         // gap-6 items-center justify-center
         <>
-        <div className="min-h-screen relative  ">
+        <div className="min-h-screen relative  " id="lander">
         <div className="hidden lg:block md:block">
-              <img src="/pc.jpg" alt="pc image" />
+              <img src="/pc.jpg" alt="pc image" className="min-h-screen" />
               <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 ">
                   <div className="flex flex-col gap-6 items-center justify-center w-full">
                    <motion.div
