@@ -24,7 +24,7 @@ export default function About(){
                 <p>I'm a professional web developer from lagos, who loves to build out my ideas</p>
              </div>
              <div className="pr-7">
-              <Image src={`/vercel.svg`} alt="image of me" width={200} height={345} />
+              <Image src={`/vercel.svg`} unoptimized alt="image of me" width={200} height={345} />
              </div>
           </div>
         </div>
