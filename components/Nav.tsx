@@ -54,7 +54,6 @@ function NavElements({name, link}:{name:string, link:any}){
                spy={true}
              >
                 {name}
-                {/* <p className={`${ubuntu.className} text-gray-400 hover:text-sky-700 cursor-pointer `}>{name}</p> */}
             </Reactlink>
         </div>
       )

@@ -9,7 +9,7 @@ export async function GET(req: Request, res:Response){
 export async function POST(req:Request, res:Response){
     try {
         const data = await req.json();
-       await sendMessage(data);
+        await sendMessage(data);
         return  Response.json(data);
     } catch (e) {
         console.log(e);
