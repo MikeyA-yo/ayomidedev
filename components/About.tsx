@@ -32,10 +32,10 @@ function Handle(){
   return(
     <>
       <div className="flex gap-5 justify-around w-full">
-      <a href={handles[0].link} ><RegularGithub className="h-6 w-6" /></a>
-      <a href={handles[1].link} ><RegularEnvelope className="h-6 w-6" /></a>
-      <a href={handles[2].link} ><RegularTwitter className="h-6 w-6 " /></a>
-      <a href={handles[3].link} ><RegularWhatsapp className="h-6 w-6" /></a>
+      <a href={handles[0].link} ><RegularGithub className="h-6 w-6 hover:h-8 hover:w-8 duration-200" /></a>
+      <a href={handles[1].link} ><RegularEnvelope className="h-6 w-6 hover:h-8 hover:w-8 duration-200" /></a>
+      <a href={handles[2].link} ><RegularTwitter className="h-6 w-6 hover:h-8 hover:w-8 duration-200 " /></a>
+      <a href={handles[3].link} ><RegularWhatsapp className="h-6 w-6 hover:h-8 hover:w-8 duration-200" /></a>
       </div>
     </>
   )
@@ -66,6 +66,16 @@ function Mobile(){
   )
 }
 export default function About(){
+  const [hover, setHover] = useState<boolean>(false);
+  function src(state:boolean){
+    let src;
+    if(state){
+      src = '/me2.jpg'
+    }else{
+      src = '/me.jpeg'
+    }
+    return src;
+  }
     return (
         <>
         <div id="about">
@@ -103,7 +113,15 @@ export default function About(){
                 </p>
              </div>
              <div className="pr-7 min-w-96">
-              <Image src={`/me.jpeg`} unoptimized alt="image of me" width={400} height={345} />
+              <Image src={src(hover)} unoptimized alt="image of me" width={400} height={345} onMouseOver={()=>{
+                setHover(true);
+                console.log(hover);
+              }}
+              onMouseLeave={()=>{
+                setHover(false);
+                console.log(hover);
+              }}
+              />
               <div className="relative bottom-6 z-10 h-10 items-center justify-center flex bg-slate-600 ">  
                 <Handle />
              </div>
