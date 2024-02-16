@@ -115,11 +115,9 @@ export default function About(){
              <div className="pr-7 min-w-96">
               <Image src={src(hover)} unoptimized alt="image of me" width={400} height={345} onMouseOver={()=>{
                 setHover(true);
-                console.log(hover);
               }}
               onMouseLeave={()=>{
                 setHover(false);
-                console.log(hover);
               }}
               />
               <div className="relative bottom-6 z-10 h-10 items-center justify-center flex bg-slate-600 ">  
