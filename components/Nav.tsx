@@ -102,7 +102,7 @@ export default  function Navbar(){
   const [openBar, setOpenBar] = useState(true)
     return (
         <>
-          <div className={`w-full h-24 p-4 fixed md:flex lg:flex items-center z-10  hidden justify-between gap-40 bg-white`}>
+          <div className={`w-full h-24 p-4 fixed md:flex lg:flex items-center z-50  hidden justify-between gap-40 bg-white`}>
              <div className="flex-grow">
                 <Link href={'/'}><p className={`text-xl text-violet-700 ${ubuntu.className}`}>AYOMIDE</p></Link>
              </div>
@@ -112,7 +112,7 @@ export default  function Navbar(){
              })}
             </div>
           </div>
-          <div className="flex flex-col md:hidden lg:hidden gap-3 h-20 p-4 bg-white fixed z-10 w-full items-center">
+          <div className="flex flex-col md:hidden lg:hidden gap-3 h-20 p-4 bg-white fixed z-50 w-full items-center">
              <div className="flex gap-5 items-center justify-between w-full">
                <div className="flex-grow">
                 <Link href={'/'}><p className={`text-xl text-violet-700 ${ubuntu.className}`}>AYOMIDE</p></Link>
