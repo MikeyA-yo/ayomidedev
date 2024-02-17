@@ -91,7 +91,7 @@ export default function About(){
           <hr />
           <div className="lg:flex md:flex gap-10 hidden justify-between p-14">
              <div className="pl-7 ">
-                <p>I'm a professional web developer from lagos, who loves to build out my ideas 
+                <p>I'm a professional <span className="text-slate-800 font-bold">web developer</span> from lagos, who loves to build out my ideas 
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
