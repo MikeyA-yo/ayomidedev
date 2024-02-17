@@ -2,7 +2,7 @@
 import { motion } from "framer-motion"
 import { Montserrat } from "next/font/google"
 import Image from "next/image";
-import { LineIcon, RegularSpinner, RegularFolder, RegularGithub, RegularTwitter, RegularWhatsapp, RegularEnvelope } from "lineicons-react";
+import {  RegularGithub, RegularTwitter, RegularWhatsapp, RegularEnvelope } from "lineicons-react";
 import { useState } from "react";
 
 const handles = [
@@ -113,13 +113,17 @@ export default function About(){
                 </p>
              </div>
              <div className="pr-7 min-w-96">
-              <Image src={src(hover)} unoptimized alt="image of me" width={400} height={345} onMouseOver={()=>{
+              <div className="w-90 h-90 overflow-hidden">
+              <Image src={src(hover)} unoptimized alt="image of me" width={400} height={345} 
+              className="transition-transform transform hover:scale-110 w-full h-full duration-200"
+              onMouseOver={()=>{
                 setHover(true);
               }}
               onMouseLeave={()=>{
                 setHover(false);
               }}
               />
+              </div>
               <div className="relative bottom-6 z-10 h-10 items-center justify-center flex bg-slate-600 ">  
                 <Handle />
              </div>
