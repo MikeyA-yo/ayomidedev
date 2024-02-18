@@ -2,12 +2,14 @@ import Image from "next/image";
 import Lander from "@/components/Lander";
 import About from "@/components/About";
 import Modal from "@/components/modal";
+import Skills from "@/components/Skills";
 
 export default function Home() {
   return (
     <>
     <Lander />
     <About />
+    <Skills />
      <div className="container-center" id="portfolio">
        <h1>hello world</h1>
      </div>

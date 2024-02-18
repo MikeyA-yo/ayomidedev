@@ -1,0 +1,16 @@
+.progress-bar-container {
+    background-color: #f6f5f7;
+    border: 0.1rem solid #ccc;
+    border-radius: 999px;
+    margin: 2rem;
+  }
+  
+  .progress-bar {
+    height: 1rem;
+    background-color: rgb(3,105,161);
+    border-radius: 999px;
+    color: #fff;
+    text-align: center;
+    line-height: 1rem;
+  }
+  
