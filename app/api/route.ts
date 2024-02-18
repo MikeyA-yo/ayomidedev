@@ -3,7 +3,7 @@
 import sendMessage from "./contact";
 
 export async function GET(req: Request, res:Response){
-    return Response.json({message:"hello ayo"});
+    return Response.json({message:"hello ayo, you're probably the only one here"});
 }
 
 export async function POST(req:Request, res:Response){

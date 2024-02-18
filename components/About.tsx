@@ -45,9 +45,13 @@ function Mobile(){
     <>
     <div className="lg:hidden md:hidden gap-10 flex flex-col justify-between p-14">
              <div className="pl-7 ">
-                <p>I'm a professional web developer from lagos, who loves to build out my ideas 
+                <p>I'm a professional  <span className="text-slate-800 font-bold animate-pulse">web developer</span> from lagos, who loves to build out my ideas 
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                <br />
+                 <br />
+                 <br />
+                Ut 
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
                  nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
                  reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
@@ -95,7 +99,11 @@ export default function About(){
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                 nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                 nisi ut aliquip ex ea commodo consequat. 
+                 <br />
+                 <br />
+                 <br />
+                 Duis aute irure dolor in 
                  reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
                   pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
                   culpa qui officia deserunt mollit anim id est laborum."
@@ -127,8 +135,7 @@ export default function About(){
               <div className="relative bottom-6 z-10 h-10 items-center justify-center flex bg-slate-600 ">  
                 <Handle />
              </div>
-             {/* <LineIcon name="folder" /> */}
-             </div>
+            </div>
           </div>
            <Mobile />
         </div>
