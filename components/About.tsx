@@ -32,10 +32,10 @@ function Handle(){
   return(
     <>
       <div className="flex gap-5 justify-around w-full">
-      <a href={handles[0].link} ><RegularGithub className="h-6 w-6 hover:h-8 hover:w-8 duration-200" /></a>
-      <a href={handles[1].link} ><RegularEnvelope className="h-6 w-6 hover:h-8 hover:w-8 duration-200" /></a>
-      <a href={handles[2].link} ><RegularTwitter className="h-6 w-6 hover:h-8 hover:w-8 duration-200 " /></a>
-      <a href={handles[3].link} ><RegularWhatsapp className="h-6 w-6 hover:h-8 hover:w-8 duration-200" /></a>
+      <a href={handles[0].link} target="_blank"><RegularGithub className="h-6 w-6 hover:h-8 hover:w-8 duration-200" /></a>
+      <a href={handles[1].link} target="_blank"><RegularEnvelope className="h-6 w-6 hover:h-8 hover:w-8 duration-200" /></a>
+      <a href={handles[2].link} target="_blank"><RegularTwitter className="h-6 w-6 hover:h-8 hover:w-8 duration-200 " /></a>
+      <a href={handles[3].link} target="_blank" ><RegularWhatsapp className="h-6 w-6 hover:h-8 hover:w-8 duration-200" /></a>
       </div>
     </>
   )
