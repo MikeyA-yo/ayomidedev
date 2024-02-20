@@ -92,14 +92,6 @@ export default function Skills(){
                    <h2>GIT</h2>
                    <ProgressBar progress={95} /> 
                 </div>
-                {/* <div className="flex flex-col w-full gap-3">
-                   <h2>JS</h2>
-                   <ProgressBar progress={90} />
-                </div> */}
-              {/* <h2>HTML</h2>
-              <ProgressBar progress={90} />
-              <ProgressBar progress={50} />
-              <ProgressBar progress={70} /> */}
               </div>
             </div>
            </div>
