@@ -26,10 +26,6 @@ const values=[
         link:"profile"
     },
     {
-        name:"PORTFOLIO",
-        link:"portfolio"
-    },
-    {
         name:"PROJECTS",
         link:"projects"
     },

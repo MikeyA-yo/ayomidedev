@@ -10,9 +10,6 @@ export default function Home() {
     <Lander />
     <About />
     <Skills />
-     <div className="container-center" id="portfolio">
-       <h1>hello world</h1>
-     </div>
      <div className="container-center">
        <h1>hello world</h1>
      </div>
@@ -25,7 +22,7 @@ export default function Home() {
      <div className="container-center" id="contact">
        <h1>hello world</h1>
      </div>
-     <div className="container-center" id="skills">
+     <div className="container-center" >
        <h1>hello world</h1>
      </div>
      <div className="container-center" >
