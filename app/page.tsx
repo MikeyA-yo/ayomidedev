@@ -3,6 +3,7 @@ import Lander from "@/components/Lander";
 import About from "@/components/About";
 import Modal from "@/components/modal";
 import Skills from "@/components/Skills";
+import Profile from "@/components/Profile";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
     <Lander />
     <About />
     <Skills />
+    <Profile />
      <div className="container-center">
        <h1>hello world</h1>
      </div>

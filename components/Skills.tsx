@@ -81,16 +81,24 @@ export default function Skills(){
             <div className=" p-14">
               <div className="flex container flex-col lg:flex-row md:flex-row gap-5 w-full justify-around">
                 <div className="flex flex-col w-full flex-wrap gap-3">
-                  <h2>HTML</h2>
+                 <div>
+                 <h2 className="pl-5">HTML</h2>
                   <ProgressBar progress={90} />
-                  <h2>JS</h2>
+                 </div>
+                 <div>
+                 <h2 className="pl-5">JS</h2>
                    <ProgressBar progress={90} />
+                 </div>
                 </div>
                 <div className="flex flex-col w-full gap-3">
-                   <h2>CSS</h2>
+                  <div>
+                  <h2 className="pl-5">CSS</h2>
                    <ProgressBar progress={70} />
-                   <h2>GIT</h2>
+                  </div>
+                  <div>
+                  <h2 className="pl-5">GIT</h2>
                    <ProgressBar progress={95} /> 
+                  </div>
                 </div>
               </div>
             </div>
