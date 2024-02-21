@@ -4,6 +4,6 @@
 
 @layer utilities{
     .active-link{
-        @apply text-sky-700 ;
+        @apply text-sky-800 ;
       }
 }
