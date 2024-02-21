@@ -89,6 +89,14 @@ export default function Skills(){
                  <h2 className="pl-5">JS</h2>
                    <ProgressBar progress={90} />
                  </div>
+                 <div>
+                  <h2 className="pl-5">React</h2>
+                  <ProgressBar progress={70} />
+                 </div>
+                 <div>
+                  <h2 className="pl-5">Nodejs</h2>
+                  <ProgressBar progress={65} />
+                 </div>
                 </div>
                 <div className="flex flex-col w-full gap-3">
                   <div>
@@ -99,6 +107,14 @@ export default function Skills(){
                   <h2 className="pl-5">GIT</h2>
                    <ProgressBar progress={95} /> 
                   </div>
+                  <div>
+                  <h2 className="pl-5">NextJs</h2>
+                  <ProgressBar progress={79} />
+                 </div>
+                 <div>
+                  <h2 className="pl-5">Mongodb</h2>
+                  <ProgressBar progress={90} />
+                 </div>
                 </div>
               </div>
             </div>
