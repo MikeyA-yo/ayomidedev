@@ -19,7 +19,7 @@ export default function Profile(){
                 variants={variants}
                 whileHover={`hover`}
                 >
-                     <a href="https://github.com/MikeyA-yo" className="hover:bg-blue-500"><RegularGithub className="h-24 w-24 hover:fill-white hover:bg-blue-500" /></a>
+                     <a href="https://github.com/MikeyA-yo" className="hover:bg-blue-500"><RegularGithub className="h-24 w-24 hover:fill-white hover:bg-black" /></a>
                 </motion.div>
                 <div className=" border-r-2"></div>
                 <motion.div
