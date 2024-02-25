@@ -4,6 +4,6 @@
 
 @layer utilities{
     .active-link{
-        @apply text-sky-800 ;
+        @apply text-sky-800 font-extrabold;
       }
 }
