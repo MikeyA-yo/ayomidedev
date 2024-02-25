@@ -60,18 +60,7 @@ function ProgressBar({progress}:{progress:string | number }){
          </div>
     )
 }
-export default function Skills(){
-    const [val, setVal] = useState(0)
-    useEffect(() => {
-        // Simulate progress increment
-        const interval = setInterval(() => {
-          setVal((val) => {
-            const newProgress = val + 10;
-            return newProgress >= 100 ? 100 : newProgress;
-          });
-        }, 1000);
-        return () => clearInterval(interval);
-    }, []);    
+export default function Skills(){  
     return (
         <div id='skills'>
            <div className="pb-16"></div>

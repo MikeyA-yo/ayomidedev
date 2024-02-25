@@ -12,6 +12,7 @@ import './nav.css';
 // const scroll = require('react-scroll');
 
 const ubuntu = Ubuntu({weight:['500'], subsets:['greek']});
+const ub = ubuntu.className;
 const values=[
     {
         name:"ABOUT",
@@ -41,7 +42,7 @@ function NavElements({name, link}:{name:string, link:any}){
       return (
         <div className="p-2 bg-white">
             <Reactlink
-               className={`${ubuntu.className} text-gray-400 hover:text-sky-700 cursor-pointer `} 
+               className={`${ub} text-gray-400 hover:text-sky-700 cursor-pointer `} 
                to={link}
                smooth = {true}
                duration={800}
@@ -100,7 +101,7 @@ export default  function Navbar(){
         <>
           <div className={`w-full h-24 p-4 fixed md:flex lg:flex items-center z-50  hidden justify-between gap-40 bg-white`}>
              <div className="flex-grow">
-                <Link href={'/'}><p className={`text-xl text-violet-700 ${ubuntu.className}`}>AYOMIDE</p></Link>
+                <Link href={'/'}><p className={`text-xl text-violet-700 ${ub}`}>AYOMIDE</p></Link>
              </div>
             <div className="w-full flex gap-2 justify-between">
             {values.map((item, index) =>{
@@ -111,7 +112,7 @@ export default  function Navbar(){
           <div className="flex flex-col md:hidden lg:hidden gap-3 h-20 p-4 bg-white fixed z-50 w-full items-center">
              <div className="flex gap-5 items-center justify-between w-full">
                <div className="flex-grow">
-                <Link href={'/'}><p className={`text-xl text-violet-700 ${ubuntu.className}`}>AYOMIDE</p></Link>
+                <Link href={'/'}><p className={`text-xl text-violet-700 ${ub}`}>AYOMIDE</p></Link>
                </div>
                <div className="" 
                 onClick={()=> {setOpenBar(!openBar)}}
