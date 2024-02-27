@@ -1,9 +1,8 @@
 "use client";
-import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import './progress.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Virtual, Autoplay ,Navigation, Pagination} from "swiper/modules";
+import { Virtual, Autoplay } from "swiper/modules";
 import 'swiper/css'
 import 'swiper/css/virtual'
 // import 'swiper/css/navigation'
