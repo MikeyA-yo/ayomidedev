@@ -63,6 +63,14 @@ function Mobile(){
                    I've danced through various industries, learning the ropes and tailoring my skills to meet different needs.
                    Excited to bring my bag of tricks to your projects and make some coding magic happen!
                 </p>
+                <div>
+                  <p className="text-2xl pt-7">Hobbies</p>
+                  <ul className="pl-5">
+                    <li>Playing Table tennis</li>
+                    <li>Learning new things</li>
+                    <li>Programming</li>
+                  </ul>
+                </div>
              </div>
              <div className="pr-7 flex items-center flex-col">
               <Image src={`/me.jpeg`} unoptimized alt="image of me" width={400} height={345} className="w-full" />
@@ -118,6 +126,14 @@ export default function About(){
                    <br />
                    Excited to bring my bag of tricks to your projects and make some coding magic happen!
                 </p>
+                <div>
+                  <p className="text-2xl pt-7">Hobbies</p>
+                   <ul className="pl-5">
+                    <li>Playing Table tennis</li>
+                    <li>Learning new things</li>
+                    <li>Programming</li>
+                   </ul>
+                </div>
              </div>
              <div className="pr-7 min-w-96">
               <div className="w-90 h-90 overflow-hidden">
