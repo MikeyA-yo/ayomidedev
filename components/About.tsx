@@ -45,18 +45,23 @@ function Mobile(){
     <>
     <div className="lg:hidden md:hidden gap-10 flex flex-col justify-between p-14">
              <div className="pl-7 ">
-                <p>I'm a professional  <span className="text-slate-800 font-bold animate-pulse">web developer</span> from lagos, who loves to build out my ideas 
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                <p>I'm a passionate  <span className="text-slate-800 font-bold animate-pulse">web developer</span> from lagos, who loves to build out my ideas 
+                 I like to build out ideas, and learn more in the process.
                 <br />
                  <br />
                  <br />
-                Ut 
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                 nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-                 reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
-                  culpa qui officia deserunt mollit anim id est laborum."
+                 I'm Ayo, a seasoned full-stack developer with a strong focus on creating dynamic and efficient web applications.
+                  My expertise lies in harnessing the power of Next.js and the MERN stack—MongoDB, Express.js, React.js, and Node.js—to craft 
+                  seamless and feature-rich solutions.
+                  In my coding journey, I'm making sure to keep evolving so as to keep being a pro at juggling both front-end and back-end magic.
+                   Next.js helps me conjure up smooth and fast interfaces, 
+                   while the <span className="text-slate-800 font-bold">MERN</span>  stack gives me the tools to build powerful server-side applications.
+                   I'm not just about writing code; I'm all about crafting solutions that last. 
+                   I'm obsessed with clean, maintainable code that not only works but stands strong over time. 
+                   I believe in doing things right, the first time.
+                   Beyond the techy stuff, I know it's crucial to connect the dots between tech solutions and the bigger picture of a project. 
+                   I've danced through various industries, learning the ropes and tailoring my skills to meet different needs.
+                   Excited to bring my bag of tricks to your projects and make some coding magic happen!
                 </p>
              </div>
              <div className="pr-7 flex items-center flex-col">
@@ -95,29 +100,23 @@ export default function About(){
           <hr />
           <div className="lg:flex md:flex gap-10 hidden justify-between p-14">
              <div className="pl-7 ">
-                <p>I'm a professional <span className="text-slate-800 font-bold">web developer</span> from lagos, who loves to build out my ideas 
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                 nisi ut aliquip ex ea commodo consequat. 
+                <p>I'm a professional <span className="text-slate-800 font-bold animate-pulse">web developer</span> from lagos, who loves to create amazing fullstack web pages
+                  I like to build out ideas, and learn more in the process.
                  <br />
                  <br />
                  <br />
-                 Duis aute irure dolor in 
-                 reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
-                  culpa qui officia deserunt mollit anim id est laborum."
-                  "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
-                  doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore ver
-                  itatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam vo
-                  luptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magn
-                  i dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dol
-                  orem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius m
-                  odi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad mi
-                  nima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliq
-                  uid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate 
-                  velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo volupta
-                  s nulla pariatur?"
+                  I'm Ayo, a seasoned full-stack developer with a strong focus on creating dynamic and efficient web applications.
+                  My expertise lies in harnessing the power of Next.js and the MERN stack—MongoDB, Express.js, React.js, and Node.js—to craft 
+                  seamless and feature-rich solutions.
+                  In my coding journey, I'm making sure to keep evolving so as to keep being a pro at juggling both front-end and back-end magic.
+                   Next.js helps me conjure up smooth and fast interfaces, 
+                   while the <span className="text-slate-800 font-bold">MERN</span>  stack gives me the tools to build powerful server-side applications.
+                   I'm not just about writing code; I'm all about crafting solutions that last. 
+                   I'm obsessed with clean, maintainable code that not only works but stands strong over time. 
+                   I believe in doing things right, the first time.
+                   Beyond the techy stuff, I know it's crucial to connect the dots between tech solutions and the bigger picture of a project. I've danced through various industries, learning the ropes and tailoring my skills to meet different needs.
+                   <br />
+                   Excited to bring my bag of tricks to your projects and make some coding magic happen!
                 </p>
              </div>
              <div className="pr-7 min-w-96">

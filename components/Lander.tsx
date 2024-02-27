@@ -5,7 +5,7 @@ import { Gupter } from "next/font/google";
 import { Montserrat } from "next/font/google";
 
 const mont = Montserrat({weight:["600"], subsets:['cyrillic-ext'], style:['normal']})
- // const gupter = Gupter({weight:['500'], subsets:['latin'], style:['normal']});
+// const gupter = Gupter({weight:['500'], subsets:['latin'], style:['normal']});
 const single = Single_Day({weight:["400"], style:['normal']});
 const singday = single.className;
 export default function Lander(){
