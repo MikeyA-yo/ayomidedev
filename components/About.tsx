@@ -1,6 +1,6 @@
 "use client"
 import { motion } from "framer-motion"
-import { Montserrat } from "next/font/google"
+import { Montserrat, Josefin_Sans } from "next/font/google"
 import Image from "next/image";
 import {  RegularGithub, RegularTwitter, RegularWhatsapp, RegularEnvelope } from "lineicons-react";
 import { useState } from "react";
@@ -28,6 +28,7 @@ interface Item{
   link:string
 }
 const mont = Montserrat({weight:['600'], subsets:['latin'], style:['normal']});
+const jose = Josefin_Sans({weight:['600'], style:['normal'], subsets:['latin']});
 function Handle(){
   return(
     <>
@@ -64,7 +65,7 @@ function Mobile(){
                    Excited to bring my bag of tricks to your projects and make some coding magic happen!
                 </p>
                 <div>
-                  <p className="text-2xl pt-7">Hobbies</p>
+                  <p className={`text-2xl pt-7 ${jose.className}`}>HOBBIES</p>
                   <ul className="pl-5">
                     <li>Playing Table tennis</li>
                     <li>Learning new things</li>
@@ -127,7 +128,7 @@ export default function About(){
                    Excited to bring my bag of tricks to your projects and make some coding magic happen!
                 </p>
                 <div>
-                  <p className="text-2xl pt-7">Hobbies</p>
+                  <p className={`text-2xl pt-7 ${jose.className}`}>HOBBIES</p>
                    <ul className="pl-5">
                     <li>Playing Table tennis</li>
                     <li>Learning new things</li>
