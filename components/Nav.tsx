@@ -1,9 +1,7 @@
 "use client";
-// import { useRouter } from "next/router";
-import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { Ubuntu } from "next/font/google";
-import { useEffect, useState } from "react";
+import {  useState } from "react";
 import   { Link as Reactlink } from 'react-scroll';
 import { AnimatePresence, motion } from "framer-motion";
 import './nav.css';
