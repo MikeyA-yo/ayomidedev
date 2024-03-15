@@ -31,7 +31,11 @@
   }
 
 }
-
+@layer base{
+  body{
+    @apply bg-gray-200
+  }
+}
 @layer utilities {
   .active-link{
     @apply  text-sky-800;
