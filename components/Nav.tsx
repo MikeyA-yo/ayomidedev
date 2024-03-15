@@ -3,7 +3,6 @@
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { Ubuntu } from "next/font/google";
-import { NextURL } from "next/dist/server/web/next-url";
 import { useEffect, useState } from "react";
 import   { Link as Reactlink } from 'react-scroll';
 import { AnimatePresence, motion } from "framer-motion";
