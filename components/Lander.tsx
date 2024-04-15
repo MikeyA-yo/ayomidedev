@@ -1,5 +1,3 @@
-"use client"
-import { motion } from "framer-motion";
 import { Single_Day } from "next/font/google";
 import { Gupter } from "next/font/google";
 import { Montserrat } from "next/font/google";
