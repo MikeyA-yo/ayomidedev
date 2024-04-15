@@ -4,6 +4,7 @@ import { Montserrat, Josefin_Sans } from "next/font/google"
 import Image from "next/image";
 import {  RegularGithub, RegularTwitter, RegularWhatsapp, RegularEnvelope } from "lineicons-react";
 import { useState } from "react";
+import X from "./X";
 
 const handles = [
 {
@@ -35,7 +36,7 @@ function Handle(){
       <div className="flex gap-5 justify-around w-full">
       <a href={handles[0].link} target="_blank"><RegularGithub className="h-6 w-6 hover:h-8 hover:w-8 duration-200" /></a>
       <a href={handles[1].link} target="_blank"><RegularEnvelope className="h-6 w-6 hover:h-8 hover:w-8 duration-200" /></a>
-      <a href={handles[2].link} target="_blank"><RegularTwitter className="h-6 w-6 hover:h-8 hover:w-8 duration-200 " /></a>
+      <a href={handles[2].link} target="_blank"><X className="h-6 w-6 hover:h-8 hover:w-8 duration-200 " /></a>
       <a href={handles[3].link} target="_blank" ><RegularWhatsapp className="h-6 w-6 hover:h-8 hover:w-8 duration-200" /></a>
       </div>
     </>

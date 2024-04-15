@@ -1,4 +1,4 @@
-import { RegularGithub, RegularTwitter, RegularTwitterFill, RegularTwitterOriginal } from "lineicons-react";
+import { RegularGithub} from "lineicons-react";
 
 import { MotionDiv } from "./Motion";
 import X from "./X";
