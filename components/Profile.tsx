@@ -1,6 +1,7 @@
 "use client";
 import { RegularGithub, RegularTwitter, RegularTwitterFill, RegularTwitterOriginal } from "lineicons-react";
 import { motion } from "framer-motion";
+import X from "./X";
 
 export default function Profile(){
     const variants={
@@ -26,7 +27,7 @@ export default function Profile(){
                 variants={variants}
                 whileHover={`hover`}
                 >
-                     <a href="https://x.com/OluwatolaAyomi4?t=GQoEQpDSRlm7pyPLPxQHhA&s=09" className="hover:bg-blue-500"><RegularTwitter className="h-24 w-24 fill-blue-500 hover:bg-blue-500 hover:fill-white" /></a>
+                     <a href="https://x.com/OluwatolaAyomi4?t=GQoEQpDSRlm7pyPLPxQHhA&s=09" className="hover:bg-blue-500"><X  className="h-24 w-24 fill-grey-500 hover:bg-black hover:fill-white" /></a>
                 </motion.div>
               </div>
           </div>
