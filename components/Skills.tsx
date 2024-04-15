@@ -13,6 +13,7 @@ function Slides({mobile}:{mobile?:boolean}){
   const slides = [
     'bash.svg',
     'bootstrap.svg',
+    'bun.svg',
     'c.svg',
     'css.svg',
     'express.svg',
@@ -79,11 +80,11 @@ export default function Skills(){
                  </div>
                  <div>
                   <h2 className="pl-5">React</h2>
-                  <ProgressBar progress={70} />
+                  <ProgressBar progress={80} />
                  </div>
                  <div>
                   <h2 className="pl-5">Nodejs</h2>
-                  <ProgressBar progress={65} />
+                  <ProgressBar progress={75} />
                  </div>
                 </div>
                 <div className="flex flex-col w-full gap-3">
