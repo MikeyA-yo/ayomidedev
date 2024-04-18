@@ -16,6 +16,7 @@ function Slides({mobile}:{mobile?:boolean}){
     'bun.svg',
     'c.svg',
     'css.svg',
+    'deno.svg',
     'express.svg',
     'HTML.svg',
     'javascript.svg',
