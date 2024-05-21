@@ -95,7 +95,7 @@ export default  function Navbar(){
   const [openBar, setOpenBar] = useState(true)
     return (
         <>
-          <div className={`w-full h-24 p-4 fixed md:flex lg:flex items-center z-50  hidden justify-between gap-40 bg-white`}>
+          <div className={`w-full h-20 p-4 fixed md:flex lg:flex items-center z-50  hidden justify-between gap-40 bg-white`}>
              <div className="flex-grow">
                 <Link href={'/'}><p className={`text-xl text-violet-700 ${ub}`}>AYOMIDE</p></Link>
              </div>
