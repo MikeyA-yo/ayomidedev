@@ -123,7 +123,7 @@ export default function About() {
         <hr />
         <div className="lg:flex md:flex gap-10 hidden justify-between p-14">
           <div className={mont.className}>
-            <h1 className="text-2xl">I&apos;m Ayo</h1>
+            <h1 className="text-2xl p-4 text-center">I&apos;m Ayo</h1>
             <p>
               A professional full-stack web developer from Lagos. I specialize
               in creating dynamic and efficient web applications using Next.js
@@ -136,6 +136,7 @@ export default function About() {
               every project. Excited to make coding magic happen for your
               projects!
             </p>
+            <p>Passion</p>
           </div>
           <div className="pr-7 min-w-96">
             <div className="w-90 h-90 overflow-hidden">
@@ -154,7 +155,7 @@ export default function About() {
                 }}
               />
             </div>
-            <div className="relative bottom-6 z-10 h-10 items-center justify-center flex bg-slate-600 ">
+            <div className="relative bottom-6 z-10 h-10 items-center w-full justify-center flex bg-slate-600 ">
               <Handle />
             </div>
           </div>
