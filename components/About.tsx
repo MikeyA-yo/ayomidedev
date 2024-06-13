@@ -31,12 +31,12 @@ const handles = [
   },
 ];
 const mont = Montserrat({
-  weight: ["600"],
+  weight: ["700"],
   subsets: ["latin"],
   style: ["normal"],
 });
 const jose = Josefin_Sans({
-  weight: ["600"],
+  weight: ["700"],
   style: ["normal"],
   subsets: ["latin"],
 });
@@ -77,6 +77,15 @@ function Mobile() {
             the broader project vision, bringing expertise and passion to every
             project. Excited to make coding magic happen for your projects!
           </p>
+          <div className="pt-5">
+            <h3 className="text-xl text-center">Passion</h3>
+            <p>
+              I have strong passion in programming and aspects of development,
+              in every thing i build i make sure to put in effort and time to
+              get it done, The joy in development for me is seeing my project
+              come to life
+            </p>
+          </div>
         </div>
         <div className="pr-7 flex items-center flex-col">
           <Image
@@ -136,10 +145,18 @@ export default function About() {
               every project. Excited to make coding magic happen for your
               projects!
             </p>
-            <p>Passion</p>
+            <div className="pt-5">
+              <h3 className="text-xl text-center">Passion</h3>
+              <p>
+                I have strong passion in programming and aspects of development,
+                in every thing i build i make sure to put in effort and time to
+                get it done, The joy in development for me is seeing my project
+                come to life
+              </p>
+            </div>
           </div>
-          <div className="pr-7 min-w-96">
-            <div className="w-90 h-90 overflow-hidden">
+          <div className="pr-7 lg:min-w-96 md:min-w-72">
+            <div className="w-full h-96 overflow-hidden">
               <Image
                 src={src(hover)}
                 unoptimized
