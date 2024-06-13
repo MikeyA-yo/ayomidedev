@@ -43,4 +43,7 @@
   .text-balance {
     text-wrap: balance;
   }
+  .progress-items{
+    @apply flex flex-col gap-1
+  }
 }
