@@ -7,7 +7,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import './nav.css';
 // const scroll = require('react-scroll');
 
-const ubuntu = Ubuntu({weight:['500'], subsets:['greek']});
+const ubuntu = Ubuntu({weight:['700'], subsets:['greek']});
 const ub = ubuntu.className;
 const values=[
     {

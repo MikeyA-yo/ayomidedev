@@ -4,6 +4,7 @@ import About from "@/components/About";
 import Modal from "@/components/modal";
 import Skills from "@/components/Skills";
 import Profile from "@/components/Profile";
+import Projects from "@/components/Projects";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
     <About />
     <Skills />
     <Profile />
+    <Projects />
      <div className="container-center">
        <h1>hello world</h1>
      </div>

@@ -78,7 +78,7 @@ function ProgressBar({ progress }: { progress: string | number }) {
 export default function Skills() {
   return (
     <div id="skills">
-      <div className="pb-16"></div>
+      <div className="py-16"></div>
       <div className="flex justify-center  flex-col gap-9">
         <h1 className="text-center text-2xl">SKILLS</h1>
         <hr />

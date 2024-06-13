@@ -26,7 +26,7 @@ export default function Lander() {
                 transition={{ duration: 0.7 }}
               >
                 <p
-                  className={`text-6xl font-bold text-white  ${mont.className} p-3`}
+                  className={`text-6xl text-center font-bold text-white  ${mont.className} p-3`}
                 >
                   Hi<span className="text-5xl font-bold text-blue-600">,</span>{" "}
                   I Am <br /> Ayomide <br /> Oluwatola{" "}
@@ -39,7 +39,7 @@ export default function Lander() {
                 transition={{ duration: 0.7 }}
               >
                 <p
-                  className={`text-5xl font-medium text-blue-700 ${singday} p-3`}
+                  className={`text-5xl text-center font-medium text-blue-700 ${singday} p-3`}
                 >
                   Web developer.
                 </p>
@@ -57,9 +57,9 @@ export default function Lander() {
                 transition={{ duration: 0.7 }}
               >
                 <p
-                  className={`text-5xl font-bold text-white  ${mont.className} p-3`}
+                  className={`text-5xl text-center font-bold text-white  ${mont.className} p-3`}
                 >
-                  Hi<span className="text-5xl font-bold text-blue-600">,</span>{" "}I Am Ayomide Oluwatola{" "}
+                  Hi<span className="text-5xl  font-bold text-blue-600">,</span>{" "}I Am Ayomide Oluwatola{" "}
                   <span className="text-sky-500 text-5xl font-bold">.</span>{" "}
                 </p>
               </MotionDiv>
