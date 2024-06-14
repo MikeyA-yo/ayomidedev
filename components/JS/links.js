@@ -34,16 +34,16 @@ const stacks = [
     "HTML, CSS, JavaScript",
     "HTML, CSS, JavaScript",
     "Framer, Next, Tailwind",
-    "Next, Tailwind",
-    "Next, Tailwind, CSS"
+    "Next, Tailwind, TypeScript and JavaScript",
+    "Next, TailwindCSS, TypeScript and JavaScript"
 ]
 let projectObject = projects.map((project, i) => {
   return {
+    link:project,
     name: images[i].slice(0, -4),
     image: images[i],
     desc:descs[i], 
     stack:stacks[i]
   };
 });
-console.log(projectObject);
 export const projectObjSort = projectObject.reverse();

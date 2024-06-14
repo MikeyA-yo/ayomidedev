@@ -14,15 +14,6 @@ export default function Home() {
     <Skills />
     <Profile />
     <Projects />
-     <div className="container-center">
-       <h1>hello world</h1>
-     </div>
-     <div className="container-center">
-       <h1>hello world</h1>
-     </div>
-     <div className="container-center">
-       <h1>hello world</h1>
-     </div>
      <div className="container-center" id="contact">
        <h1>hello world</h1>
      </div>
