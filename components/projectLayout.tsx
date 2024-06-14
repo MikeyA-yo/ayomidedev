@@ -18,7 +18,7 @@ function ProjectCard({image, name,desc, stack}:{image:string, name:string, desc:
              <div className="">
                <Image src={'/'+image} width={150} height={150} alt="Image of My project" className="h-52 w-52" />
              </div>
-             <hr />
+             <span className="h-[0.1rem] w-4/5 bg-gray-300"></span>
              <div className="flex flex-col py-4 items-center max-w-96 justify-evenly gap-3">
                <h2 className={`text-2xl ${mont.className}`}>{name}</h2>
                <h3 className="text-xl text-gray-700">{stack}</h3>
@@ -50,7 +50,7 @@ export default function ProjectLayOut({mobile}:{mobile?:boolean}) {
                 {projectObjSort.map((project:{name:string, image:string, desc:string, stack:string, link:string}, i:number)=>{
                    return (
                     <SwiperSlide key={i}>
-                       <Link href={project.link}><ProjectCard name={project.name.toUpperCase()} image={project.image} desc={project.desc} stack={project.stack} /></Link>
+                       <Link href={project.link} target="_blank"><ProjectCard name={project.name.toUpperCase()} image={project.image} desc={project.desc} stack={project.stack} /></Link>
                     </SwiperSlide>
                    )
                 })}
