@@ -9,8 +9,9 @@ import "swiper/css/navigation";
 import { projectObjSort } from "@/components/JS/links";
 import Image from "next/image";
 import Link from "next/link";
-import { Montserrat } from "next/font/google";
-const mont = Montserrat({weight:['700'], subsets:['vietnamese']})
+import { Montserrat, Roboto_Condensed } from "next/font/google";
+const mont = Montserrat({weight:['700'], subsets:['vietnamese']});
+const robCon = Roboto_Condensed({weight:['500'], subsets:['vietnamese']});
 function ProjectCard({image, name,desc, stack}:{image:string, name:string, desc:string, stack:string}){
     return (
         <>
@@ -21,7 +22,7 @@ function ProjectCard({image, name,desc, stack}:{image:string, name:string, desc:
              <span className="h-[0.1rem] w-4/5 bg-gray-300"></span>
              <div className="flex flex-col py-4 items-center max-w-96 justify-evenly gap-3">
                <h2 className={`text-2xl ${mont.className}`}>{name}</h2>
-               <h3 className="text-xl text-gray-700">{stack}</h3>
+               <h3 className={`text-xl text-gray-700 ${robCon.className}`}>{stack}</h3>
                <p className="text-gray-500 leading-relaxed ">{desc}</p>
              </div>
           </div>
