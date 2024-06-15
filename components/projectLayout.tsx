@@ -32,7 +32,7 @@ function ProjectCard({image, name,desc, stack}:{image:string, name:string, desc:
 export default function ProjectLayOut({mobile}:{mobile?:boolean}) {
   return (
     <>
-      <div id="projects">
+      <div>
         <div className="py-16"></div>
         <div className="flex flex-col h-auto px-4 items-center justify-center">
           <h2 className="text-3xl py-10">PROJECTS</h2>
@@ -44,7 +44,7 @@ export default function ProjectLayOut({mobile}:{mobile?:boolean}) {
              navigation
              pagination
              autoplay={{
-                delay:4500
+                delay:7500
              }}
              className="h-full w-full"
             >
