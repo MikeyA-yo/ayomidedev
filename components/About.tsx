@@ -65,7 +65,7 @@ function Mobile() {
     <>
       <div className="lg:hidden md:hidden gap-10 flex flex-col justify-between p-14">
         <div className={mont.className}>
-          <h1 className="text-2xl">I&apos;m Ayo</h1>
+          <h1 className="text-2xl text-center">I&apos;m Ayo</h1>
           <p>
             A professional full-stack web developer from Lagos. I specialize in
             creating dynamic and efficient web applications using Next.js and

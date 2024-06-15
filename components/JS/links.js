@@ -24,10 +24,10 @@ const images = [
 const descs = [
   "A simple 2 player web based dice game",
   "A web based drum kit for practising beats",
-  "Explore details on any country in the world, such as call codes, population, coat of arms and more",
-  "Explore the diverse realm of animes, in order of popularity according to MAL",
+  "Explore details on any Country in the world, such as call codes, population, coat of arms and more",
+  "Explore the diverse realm of Animes, in order of popularity according to MAL",
   "Looking for what you can make with the ingredients you have, or if you're looking for something vegan or desserts? Why not come over and visit recipe book, with tons of amazing recipes, and with an easy way of filtering out by categories ",
-  "This is basically an online bible with tons of modern features, like multiple bible versions, and the ability to look up a verse based on relevant text or keyphrase",
+  "This is basically an online Bible with tons of modern features, like multiple Bible versions, and the ability to look up a verse based on relevant text or keyphrase",
 ];
 const stacks = [
     "HTML, CSS, JavaScript",
