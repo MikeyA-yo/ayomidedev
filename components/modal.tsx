@@ -17,7 +17,7 @@ export default function Modal() {
         smooth={true}
         duration={800}
         delay={200}
-        className={`fixed bottom-4 right-4  bg-blue-500 hover:bg-transparent hover:text-blue-500 hover:border-blue-500 hover:border-2 h-14 w-14 text-white font-bold py-2 px-4 rounded-full ${
+        className={`fixed bottom-4 right-4 z-20 bg-blue-500 hover:bg-transparent hover:text-blue-500 hover:border-blue-500 hover:border-2 h-14 w-14 text-white font-bold py-2 px-4 rounded-full ${
           scrollPosition > 400 ? "opacity-100" : "opacity-0"
         } shadow-lg`}
       >

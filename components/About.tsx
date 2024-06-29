@@ -63,7 +63,7 @@ function Handle() {
 function Mobile() {
   return (
     <>
-      <div className="lg:hidden md:hidden gap-10 flex flex-col justify-between p-14">
+      <div className="lg:hidden md:hidden gap-10 flex flex-col justify-between pt-14 px-4 text-center">
         <div className={mont.className}>
           <h1 className="text-2xl text-center">I&apos;m Ayo</h1>
           <p>
@@ -87,7 +87,7 @@ function Mobile() {
             </p>
           </div>
         </div>
-        <div className="pr-7 flex items-center flex-col">
+        <div className="p-8 flex items-center justify-center flex-col">
           <Image
             src={`/me.jpeg`}
             unoptimized
