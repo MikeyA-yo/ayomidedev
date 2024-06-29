@@ -17,7 +17,7 @@ function ProjectCard({image, name,desc, stack}:{image:string, name:string, desc:
         <>
           <div className="flex flex-col items-center gap-3 h-full">
              <div className="">
-               <Image src={'/'+image} width={150} height={150} alt="Image of My project" className="h-52 w-52" />
+               <Image src={'/'+image} width={150} height={150} alt="Image of My project" className="h-44 w-44" />
              </div>
              <span className="h-[0.1rem] w-4/5 bg-gray-300"></span>
              <div className="flex flex-col py-4 items-center max-w-96 justify-evenly gap-3">
