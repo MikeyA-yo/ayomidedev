@@ -24,6 +24,7 @@ function Slides({ mobile }: { mobile?: boolean }) {
     "css.svg",
     "deno.svg",
     "express.svg",
+    "go.svg",
     "HTML.svg",
     "javascript.svg",
     "mongodb.svg",

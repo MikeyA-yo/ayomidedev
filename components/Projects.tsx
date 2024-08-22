@@ -5,7 +5,7 @@ export default function Projects() {
     <>
       <div id="projects">
         <div className="hidden lg:block md:block">
-          <ProjectLayOut />
+          <ProjectLayOut  />
         </div>
         <div className="block lg:hidden md:hidden">
           <ProjectLayOut mobile />
