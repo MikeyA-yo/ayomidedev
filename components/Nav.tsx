@@ -121,15 +121,3 @@ export default  function Navbar(){
         </>
     )
 }
-//     const path = useRouter() ;
-//     const hash = path.asPath.split('#')[1] || '';
-//    // window.location.href
-//     //const params =useParams(); active == link ? 'text-violet-700': 'text-gray-400'
-//     let col;
-//     console.log(window.location.href);
-    
-//         if (path==link){
-//             col = 'text-violet-700';
-//          }else{
-//              col= 'text-gray-400';
-//          }

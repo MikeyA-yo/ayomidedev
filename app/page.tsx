@@ -8,12 +8,12 @@ import Contact from "@/components/Contact";
 export default function Home() {
   return (
     <>
-    <Lander />
-    <About />
-    <Skills />
-    <Profile />
-    <Projects />
-    <Contact />
+      <Lander />
+      <About />
+      <Skills />
+      <Profile />
+      <Projects />
+      <Contact />
     </>
   );
 }
