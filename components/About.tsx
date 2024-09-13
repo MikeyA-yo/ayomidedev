@@ -79,9 +79,9 @@ function Mobile() {
           <div className="pt-5">
             <h3 className="text-xl text-center">Passion</h3>
             <p>
-              I have strong passion in programming and aspects of development,
-              in every thing i build i make sure to put in effort and time to
-              get it done, The joy in development for me is seeing my project
+              I have strong passion in programming and aspects of development.
+              In everything I build I make sure to put in effort and time to
+              get it done. The joy in development for me is seeing my project
               come to life
             </p>
           </div>
@@ -147,9 +147,9 @@ export default function About() {
             <div className="pt-5">
               <h3 className="text-xl text-center">Passion</h3>
               <p>
-                I have strong passion in programming and aspects of development,
-                in every thing i build i make sure to put in effort and time to
-                get it done, The joy in development for me is seeing my project
+                I have strong passion in programming and aspects of development.
+                In everything I build I make sure to put in effort and time to
+                get it done. The joy in development for me is seeing my project
                 come to life
               </p>
             </div>
