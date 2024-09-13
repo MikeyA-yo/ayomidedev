@@ -41,7 +41,7 @@ export default function Lander() {
                 <p
                   className={`text-5xl text-center font-medium text-blue-700 ${singday} p-3`}
                 >
-                  Web developer.
+                  Web Developer.
                 </p>
               </MotionDiv>
             </div>

@@ -109,6 +109,7 @@ export default function Contact() {
             </button>
           </div>
         </div>
+        <p>&copy; {new Date().getFullYear()} Ayomide Oluwatola, C.H.O inc</p>
       </div>
     </>
   );
