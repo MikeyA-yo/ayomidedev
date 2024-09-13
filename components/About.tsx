@@ -4,7 +4,6 @@ import { Montserrat, Josefin_Sans } from "next/font/google";
 import Image from "next/image";
 import {
   RegularGithub,
-  RegularTwitter,
   RegularWhatsapp,
   RegularEnvelope,
 } from "lineicons-react";
@@ -179,7 +178,6 @@ export default function About() {
         </div>
         <Mobile />
       </div>
-      {/* <span className="text-slate-800 font-bold">MERN</span>  */}
     </>
   );
 }

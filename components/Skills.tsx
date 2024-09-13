@@ -6,10 +6,7 @@ import { Virtual, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/virtual";
 import { Oswald } from "next/font/google";
-// import 'swiper/css/navigation'
-// import 'swiper/css/pagination'
 
-//w-40 lg:w-72 md:w-64
 const oswald = Oswald({
   weight: ["500"],
   subsets: ["vietnamese"],

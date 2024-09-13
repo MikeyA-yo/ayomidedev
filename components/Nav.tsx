@@ -5,7 +5,6 @@ import {  useState } from "react";
 import   { Link as Reactlink } from 'react-scroll';
 import { AnimatePresence, motion } from "framer-motion";
 import './nav.css';
-// const scroll = require('react-scroll');
 
 const ubuntu = Ubuntu({weight:['700'], subsets:['greek']});
 const ub = ubuntu.className;
@@ -91,7 +90,6 @@ function OpenedBar({open}:{open:boolean}){
 }
 
 export default  function Navbar(){
-  // const router = useRouter();
   const [openBar, setOpenBar] = useState(true)
     return (
         <>
