@@ -60,7 +60,7 @@ export default function Lander() {
                   className={`text-5xl text-center font-bold text-white  ${mont.className} p-3`}
                 >
                   Hi<span className="text-5xl  font-bold text-blue-600">,</span>{" "}I Am Ayomide Oluwatola{" "}
-                  <span className="text-sky-500 text-5xl font-bold">.</span>{" "}
+                  <span className="text-blue-600 text-5xl font-bold">.</span>{" "}
                 </p>
               </MotionDiv>
               <MotionDiv
