@@ -93,7 +93,7 @@ export default function Skills() {
               </div>
               <div className="progress-items">
                 <h2 className="pl-5">React</h2>
-                <ProgressBar progress={80} />
+                <ProgressBar progress={85} />
               </div>
               <div className="progress-items">
                 <h2 className="pl-5">Nodejs</h2>
@@ -111,7 +111,7 @@ export default function Skills() {
               </div>
               <div className="progress-items">
                 <h2 className="pl-5">NextJs</h2>
-                <ProgressBar progress={79} />
+                <ProgressBar progress={80} />
               </div>
               <div className="progress-items">
                 <h2 className="pl-5">Mongodb</h2>
