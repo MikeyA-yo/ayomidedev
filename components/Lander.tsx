@@ -17,9 +17,9 @@ export default function Lander() {
     <>
       <div className="min-h-screen relative  " id="lander">
         <div className="hidden lg:block md:block">
-          <img src="/pc.jpg" alt="pc image" className="min-h-screen" />
-          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 ">
-            <div className="flex flex-col gap-6 items-center justify-center w-full">
+          {/* <img src="/pc.jpg" alt="pc image" className="min-h-screen" /> */}
+          <div className="flex h-screen w-full items-center justify-center mb bg-cover bg-center">
+          <div className="flex flex-col gap-6 items-center justify-center w-full">
               <MotionDiv
                 initial={{ opacity: 0, y: "-30" }}
                 animate={{ opacity: 1, y: 0 }}
@@ -48,8 +48,8 @@ export default function Lander() {
           </div>
         </div>
         <div className="block lg:hidden md:hidden">
-          <img src="/mobile.jpg" alt="pc image" className="h-screen" />
-          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full ">
+          {/* <img src="/m2.jpg" alt="pc image" className="h-screen" /> */}
+          <div className="flex h-screen w-full items-center justify-center mb bg-cover bg-left">
             <div className="flex flex-col gap-6 items-center justify-center w-full ">
               <MotionDiv
                 initial={{ opacity: 0, y: "-30" }}
@@ -59,7 +59,8 @@ export default function Lander() {
                 <p
                   className={`text-5xl text-center font-bold text-white  ${mont.className} p-3`}
                 >
-                  Hi<span className="text-5xl  font-bold text-blue-600">,</span>{" "}I Am Ayomide Oluwatola{" "}
+                  Hi<span className="text-5xl  font-bold text-blue-600">,</span>{" "}
+                  I Am Ayomide Oluwatola{" "}
                   <span className="text-blue-600 text-5xl font-bold">.</span>{" "}
                 </p>
               </MotionDiv>
@@ -80,4 +81,11 @@ export default function Lander() {
       </div>
     </>
   );
+}
+
+//
+{
+  /* <div className="absolute top-1/2 left-1/2 mb bg-cover bg-center transform -translate-x-1/2 -translate-y-1/2 w-full ">
+            
+</div> */
 }

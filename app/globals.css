@@ -16,15 +16,12 @@
   }
 }
 
-/* body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-} */
+.mb{
+  background-image: url("../public/mobile.jpg")
+}
+.pc{
+  background-image: url("../public/pc.jpg")
+}
 @layer components{
   .container-center{
     @apply container pb-24;
