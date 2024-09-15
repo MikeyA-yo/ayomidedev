@@ -30,7 +30,7 @@ export default function Lander() {
                 >
                   Hi<span className="text-5xl font-bold text-blue-600">,</span>{" "}
                   I Am <br /> Ayomide <br /> Oluwatola{" "}
-                  <span className="text-sky-500 text-5xl font-bold">.</span>{" "}
+                  <span className="text-blue-500 text-5xl font-bold">.</span>{" "}
                 </p>
               </MotionDiv>
               <MotionDiv
