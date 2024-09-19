@@ -11,8 +11,8 @@ export default function Home() {
       <Lander />
       <About />
       <Skills />
-      <Projects />
       <Profile />
+      <Projects />
       <Contact />
     </>
   );

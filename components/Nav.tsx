@@ -17,14 +17,13 @@ const values = [
     name: "SKILLS",
     link: "skills",
   },
-
-  {
-    name: "PROJECTS",
-    link: "projects",
-  },
   {
     name: "PROFILE",
     link: "profile",
+  },
+  {
+    name: "PROJECTS",
+    link: "projects",
   },
   {
     name: "CONTACT",
