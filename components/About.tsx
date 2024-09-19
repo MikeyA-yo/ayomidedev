@@ -74,7 +74,7 @@ function Mobile() {
             proficient in both front-end and back-end development. With
             experience across various industries, I align tech solutions with
             the broader project vision, bringing expertise and passion to every
-            project. Excited to make coding magic happen for your projects!
+            project.
           </p>
           <div className="pt-5">
             <h3 className="text-xl text-center">Passion</h3>
@@ -141,8 +141,7 @@ export default function About() {
               stay proficient in both front-end and back-end development. With
               experience across various industries, I align tech solutions with
               the broader project vision, bringing expertise and passion to
-              every project. Excited to make coding magic happen for your
-              projects!
+              every project. 
             </p>
             <div className="pt-5">
               <h3 className="text-xl text-center">Passion</h3>
