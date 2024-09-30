@@ -7,6 +7,7 @@ const bibleapp = "https://bible-ochre.vercel.app/";
 const moviehub = "https://movieapi-gcve.onrender.com/"
 const ytlinker = "https://ytlinker.vercel.app/"
 const businessManager = "https://businessmanager-khaki.vercel.app/"
+const callie = "https://callie-web.vercel.app/"
 const projects = [
   diceGame,
   drumKit,
@@ -17,6 +18,7 @@ const projects = [
   ytlinker,
   bibleapp,
   businessManager,
+  callie
 ];
 const images = [
   "dice.png",
@@ -27,7 +29,8 @@ const images = [
   "recipebook.png",
   "ytlinker.png",
   "bibleapp.png",
-  "business-manager.png"
+  "business-manager.png",
+  "callie.png"
 ];
 const descs = [
   "A simple 2 player web based dice game",
@@ -38,7 +41,8 @@ const descs = [
   "Explore recipes of different meals, search by ingredients, categories or even countries",
   "Download youtube videos for free, just paste the youtube URL and goo(down for now)",
   "This is basically an online Bible with tons of modern features, like multiple Bible versions, and the ability to look up a verse based on relevant text or keyphrase",
-  "Manage Your daily Business transactions and calculate profits, create invoices for your transactions, and monitor your Business growth with charts"
+  "Manage Your daily Business transactions and calculate profits, create invoices for your transactions, and monitor your Business growth with charts",
+  "Real time video and audio chat application, make conference calls easily"
 ];
 const stacks = [
     "HTML, CSS, JavaScript",
@@ -49,7 +53,8 @@ const stacks = [
     "Next, TailwindCSS, TypeScript and JavaScript",
     "React, JavaScript, TailwindCSS",
     "Next, TailwindCSS, TypeScript and JavaScript",
-    "Next, TailwindCSS, TypeScript"
+    "Next, TailwindCSS, TypeScript",
+    "React, WebRTC, socket.io, go lang"
 ]
 let projectObject = projects.map((project, i) => {
   return {

@@ -10,26 +10,45 @@ import { projectObjSort } from "@/components/JS/links";
 import Image from "next/image";
 import Link from "next/link";
 import { Montserrat, Roboto_Condensed } from "next/font/google";
-const mont = Montserrat({weight:['700'], subsets:['vietnamese']});
-const robCon = Roboto_Condensed({weight:['500'], subsets:['vietnamese']});
-function ProjectCard({image, name,desc, stack}:{image:string, name:string, desc:string, stack:string}){
-    return (
-        <>
-          <div className="flex flex-col items-center gap-3 h-full">
-             <div className="">
-               <Image src={'/'+image} width={150} height={150} alt="Image of My project" className="h-44 w-44 rounded" />
-             </div>
-             <span className="h-[0.1rem] w-4/5 bg-gray-300"></span>
-             <div className="flex flex-col py-4 items-center max-w-96 justify-evenly gap-3">
-               <h2 className={`text-2xl ${mont.className}`}>{name}</h2>
-               <h3 className={`text-xl text-gray-700 ${robCon.className} text-center`}>{stack}</h3>
-               <p className="text-gray-500 leading-relaxed text-center">{desc}</p>
-             </div>
-          </div>
-        </>
-    )
+const mont = Montserrat({ weight: ["700"], subsets: ["vietnamese"] });
+const robCon = Roboto_Condensed({ weight: ["500"], subsets: ["vietnamese"] });
+function ProjectCard({
+  image,
+  name,
+  desc,
+  stack,
+}: {
+  image: string;
+  name: string;
+  desc: string;
+  stack: string;
+}) {
+  return (
+    <>
+      <div className="flex flex-col items-center gap-3 h-full">
+        <div className="">
+          <Image
+            src={"/" + image}
+            width={350}
+            height={450}
+            alt="Image of My project"
+          />
+        </div>
+        <span className="h-[0.1rem] w-4/5 bg-gray-300"></span>
+        <div className="flex flex-col py-4 items-center max-w-96 justify-evenly gap-3">
+          <h2 className={`text-2xl ${mont.className}`}>{name}</h2>
+          <h3
+            className={`text-xl text-gray-700 ${robCon.className} text-center`}
+          >
+            {stack}
+          </h3>
+          <p className="text-gray-500 leading-relaxed text-center">{desc}</p>
+        </div>
+      </div>
+    </>
+  );
 }
-export default function ProjectLayOut({mobile}:{mobile?:boolean}) {
+export default function ProjectLayOut({ mobile }: { mobile?: boolean }) {
   return (
     <>
       <div>
@@ -38,23 +57,41 @@ export default function ProjectLayOut({mobile}:{mobile?:boolean}) {
           <h2 className="text-3xl py-10">PROJECTS</h2>
           <div className="flex justify-center h-[75svh] w-full">
             <Swiper
-             modules={[Navigation, Pagination, Autoplay]}
-             slidesPerView={mobile ? 1 : 2}
-             spaceBetween={20}
-             navigation
-             pagination
-             autoplay={{
-                delay:7500
-             }}
-             className="h-full w-full p-4"
+              modules={[Navigation, Pagination, Autoplay]}
+              slidesPerView={mobile ? 1 : 2}
+              spaceBetween={20}
+              navigation
+              pagination
+              autoplay={{
+                delay: 7500,
+              }}
+              className="h-full w-full p-4"
             >
-                {projectObjSort.map((project:{name:string, image:string, desc:string, stack:string, link:string}, i:number)=>{
-                   return (
+              {projectObjSort.map(
+                (
+                  project: {
+                    name: string;
+                    image: string;
+                    desc: string;
+                    stack: string;
+                    link: string;
+                  },
+                  i: number
+                ) => {
+                  return (
                     <SwiperSlide key={i} className="py-4 px-6">
-                       <Link href={project.link} target="_blank" className="m-2"><ProjectCard name={project.name.toUpperCase()} image={project.image} desc={project.desc} stack={project.stack} /></Link>
+                      <Link href={project.link} target="_blank" className="m-2">
+                        <ProjectCard
+                          name={project.name.toUpperCase()}
+                          image={project.image}
+                          desc={project.desc}
+                          stack={project.stack}
+                        />
+                      </Link>
                     </SwiperSlide>
-                   )
-                })}
+                  );
+                }
+              )}
             </Swiper>
           </div>
         </div>
