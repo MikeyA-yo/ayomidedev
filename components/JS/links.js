@@ -9,7 +9,6 @@ const ytlinker = "https://ytlinker.vercel.app/"
 const businessManager = "https://businessmanager-khaki.vercel.app/"
 const callie = "https://callie-web.vercel.app/"
 const projects = [
-  diceGame,
   drumKit,
   moviehub,
   choCountries,
@@ -21,7 +20,6 @@ const projects = [
   callie
 ];
 const images = [
-  "dice.png",
   "drumkit.png",
   "moviehub2.png",
   "cho-countries.png",
@@ -33,7 +31,6 @@ const images = [
   "callie.png"
 ];
 const descs = [
-  "A simple 2 player web based dice game",
   "A web based drum kit for practising beats",
   "An API for getting movies and series info, you can also find suggestions based on recommend route and putting in a genre",
   "Explore details on any Country in the world, such as call codes, population, coat of arms and more",
@@ -45,7 +42,6 @@ const descs = [
   "Real time video and audio chat application, make conference calls easily"
 ];
 const stacks = [
-    "HTML, CSS, JavaScript",
     "HTML, CSS, JavaScript",
     "Go, Gin",
     "HTML, CSS, JavaScript",

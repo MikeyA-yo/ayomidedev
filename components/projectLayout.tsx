@@ -79,7 +79,7 @@ export default function ProjectLayOut({ mobile }: { mobile?: boolean }) {
                   i: number
                 ) => {
                   return (
-                    <SwiperSlide key={i} className="py-4 px-6">
+                    <SwiperSlide key={i} className="py-5 px-6">
                       <Link href={project.link} target="_blank" className="m-2">
                         <ProjectCard
                           name={project.name.toUpperCase()}

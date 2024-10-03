@@ -1,5 +1,5 @@
 import ProjectLayOut from "./projectLayout";
-
+import "./projectcustom.css"
 export default function Projects() {
   return (
     <>
