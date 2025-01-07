@@ -66,7 +66,7 @@ function Mobile() {
         <div className={mont.className}>
           <h1 className="text-2xl text-center">I&apos;m Ayo</h1>
           <p>
-            A professional full-stack web developer from Lagos. I specialize in
+            A professional full-stack web developer. I specialize in
             creating dynamic and efficient web applications using Next.js and
             the MERN stack (MongoDB, Express.js, React.js, Node.js). My focus is
             on building seamless, feature-rich solutions with clean,
@@ -133,7 +133,7 @@ export default function About() {
           <div className={mont.className}>
             <h1 className="text-2xl p-4 text-center">I&apos;m Ayo</h1>
             <p>
-              A professional full-stack web developer from Lagos. I specialize
+              A professional full-stack web developer. I specialize
               in creating dynamic and efficient web applications using Next.js
               and the MERN stack (MongoDB, Express.js, React.js, Node.js). My
               focus is on building seamless, feature-rich solutions with clean,
