@@ -17,11 +17,13 @@ function ProjectCard({
   name,
   desc,
   stack,
+  link,
 }: {
   image: string;
   name: string;
   desc: string;
   stack: string;
+  link: string;
 }) {
   return (
     <>
@@ -36,13 +38,15 @@ function ProjectCard({
         </div>
         <span className="h-[0.1rem] w-4/5 bg-gray-300"></span>
         <div className="flex flex-col py-4 items-center max-w-96 justify-evenly gap-3">
-          <h2 className={`text-2xl ${mont.className}`}>{name}</h2>
+          <Link href={link} target="_blank" className="m-2">
+            <h2 className={`text-2xl ${mont.className}`}>{name}</h2>
+          </Link>
           <h3
             className={`text-xl text-gray-700 ${robCon.className} text-center`}
           >
             {stack}
           </h3>
-          <p className="text-gray-500 leading-relaxed text-center">{desc}</p>
+          <p className="text-gray-500 text-sm leading-relaxed text-center">{desc}</p>
         </div>
       </div>
     </>
@@ -80,14 +84,13 @@ export default function ProjectLayOut({ mobile }: { mobile?: boolean }) {
                 ) => {
                   return (
                     <SwiperSlide key={i} className="py-5 px-6">
-                      <Link href={project.link} target="_blank" className="m-2">
-                        <ProjectCard
-                          name={project.name.toUpperCase()}
-                          image={project.image}
-                          desc={project.desc}
-                          stack={project.stack}
-                        />
-                      </Link>
+                      <ProjectCard
+                        name={project.name.toUpperCase()}
+                        image={project.image}
+                        desc={project.desc}
+                        stack={project.stack}
+                        link={project.link}
+                      />
                     </SwiperSlide>
                   );
                 }
