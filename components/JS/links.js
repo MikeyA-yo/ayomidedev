@@ -8,6 +8,7 @@ const moviehub = "https://movieapi-gcve.onrender.com/"
 const ytlinker = "https://ytlinker.vercel.app/"
 const businessManager = "https://businessmanager-khaki.vercel.app/"
 const callie = "https://callie-web.vercel.app/"
+const anonyline = "https://anonyline.vercel.app/"
 const projects = [
   drumKit,
   moviehub,
@@ -17,7 +18,8 @@ const projects = [
   ytlinker,
   bibleapp,
   businessManager,
-  callie
+  callie,
+  anonyline
 ];
 const images = [
   "drumkit.png",
@@ -28,7 +30,8 @@ const images = [
   "ytlinker.png",
   "bibleapp.png",
   "business-manager.png",
-  "callie.png"
+  "callie.png",
+  "anonyline.png"
 ];
 const descs = [
   "A web based drum kit for practising beats",
@@ -39,7 +42,8 @@ const descs = [
   "Download youtube videos for free, just paste the youtube URL and goo(down for now)",
   "This is basically an online Bible with tons of modern features, like multiple Bible versions, and the ability to look up a verse based on relevant text or keyphrase",
   "Manage Your daily Business transactions and calculate profits, create invoices for your transactions, and monitor your Business growth with charts",
-  "Real time video and audio chat application, make conference calls easily"
+  "Real time video and audio chat application, make conference calls easily",
+  "An anonymous chat application, where you can chat with random people via rooms",
 ];
 const stacks = [
     "HTML, CSS, JavaScript",
@@ -50,7 +54,8 @@ const stacks = [
     "React, JavaScript, TailwindCSS",
     "Next, TailwindCSS, TypeScript and JavaScript",
     "Next, TailwindCSS, TypeScript",
-    "React, WebRTC, socket.io, go lang"
+    "React, WebRTC, socket.io, go lang",
+    "Next, Typescript, Supabase"
 ]
 let projectObject = projects.map((project, i) => {
   return {
